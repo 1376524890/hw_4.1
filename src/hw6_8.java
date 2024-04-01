@@ -10,8 +10,7 @@ public class hw6_8 {
     public static void main(String[] args) {
         System.out.println("摄氏度\t华氏度\t华氏度\t摄氏度\t");
         for(double celsius = 40.0, fahrenheit = 120.0;celsius>30;celsius-=1,fahrenheit-=10){
-            double toCelsius_out = (int)(celsiusToFahrenheit(celsius)*10);
-            System.out.println(celsius+"\t"+toCelsius_out/10+"\t\t"+fahrenheit+"\t"+(int)(fahrenheitToCelsius(fahrenheit)*100)/100);
+            System.out.println(celsius+"\t"+(double)((int)(celsiusToFahrenheit(celsius)*10))/10+"\t\t"+fahrenheit+"\t"+(double)((int)(fahrenheitToCelsius(fahrenheit)*100))/100);
         }
     }
 }
