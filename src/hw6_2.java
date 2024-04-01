@@ -7,7 +7,7 @@ public class hw6_2 {
         long n_temp = n;
         for(timeMax=1;n_temp>10;n_temp/=10,timeMax++);
         for(int time = 0;time<timeMax;time++){
-            sum+= (int) (n%devide);
+            sum+= (int)(n%devide);
             n/=10;
         }
         return sum;
