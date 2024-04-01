@@ -6,10 +6,7 @@ public class hw6_2 {
         int timeMax;
         long n_temp = n;
         for(timeMax=1;n_temp>10;n_temp/=10,timeMax++);
-        for(int time = 0;time<timeMax;time++){
-            sum+= (int)(n%devide);
-            n/=10;
-        }
+        for(int time = 0;time<timeMax;sum+= (int)(n%devide),n/=10,time++);
         return sum;
     }
     public static void main(String[] args) {
