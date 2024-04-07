@@ -13,7 +13,6 @@ public class hw6_37 {
         }
         return fill0_str + number;
     }
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String number = scan.next();
