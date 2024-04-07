@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a645f3e-ac5d-498c-9edc-213da89fc3e4" name="更改" comment="6.22修改完成">
-      <change afterPath="$PROJECT_DIR$/src/hw6_28.java" afterDir="false" />
+    <list default="true" id="6a645f3e-ac5d-498c-9edc-213da89fc3e4" name="更改" comment="6.28错误版本备份">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw6_28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw6_28.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "应用程序.hw6_18.executor": "Run",
     "应用程序.hw6_2.executor": "Run",
     "应用程序.hw6_22.executor": "Run",
-    "应用程序.hw6_28.executor": "Run",
+    "应用程序.hw6_28.executor": "Debug",
     "应用程序.hw6_8.executor": "Run"
   }
 }]]></component>
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712481537701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="6.28错误版本备份">
+      <option name="closed" value="true" />
+      <created>1712484904078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712484904078</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,7 +157,8 @@
     <MESSAGE value="6.8修改完成" />
     <MESSAGE value="6.18修改完成" />
     <MESSAGE value="6.22修改完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.22修改完成" />
+    <MESSAGE value="6.28错误版本备份" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.28错误版本备份" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -163,6 +172,11 @@
           <url>file://$PROJECT_DIR$/src/hw6_22.java</url>
           <line>4</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hw6_28.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
