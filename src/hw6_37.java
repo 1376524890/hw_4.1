@@ -1,7 +1,8 @@
+import java.util.Arrays;
 import java.util.Scanner;
 public class hw6_37 {
     public static String format(int number, int width){
-        char[] ori_fill = new char[width];
+        char[] fill_0 = new char[width];
         int digit,number_temp=number;
         for(digit = 1;number_temp>=10;number_temp/=10,digit++);
         char[] num = new char[digit];
@@ -11,17 +12,15 @@ public class hw6_37 {
             num[i] = (char)(number_temp % ten);
             ten*=10;
         }
-        if(width<=digit){
-            String output = new String(num);
-            return output;
-        }
-        else {
-            for(int start = width-digit, start0 = start;start<width;start++){
-                ori_fill[start] = num[start-start0];
+        String num_str = Arrays.toString(num);
+        String fill0_str = "";
+        if(width>=digit){
+            for (int i = 0; i < width-digit; i++) {
+                fill_0[i] = '0';
             }
-            String output = new String(ori_fill);
-            return output;
+            fill0_str = Arrays.toString(fill_0);
         }
+        return fill0_str.concat(num_str);
     }
 
     public static void main(String[] args) {
