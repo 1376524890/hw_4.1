@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a645f3e-ac5d-498c-9edc-213da89fc3e4" name="更改" comment="6.37输出乱码，修改前备份">
+    <list default="true" id="6a645f3e-ac5d-498c-9edc-213da89fc3e4" name="更改" comment="6.37输出乱码，第二次修改前备份">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw6_37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw6_37.java" afterDir="false" />
     </list>
@@ -162,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712490386221</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="6.37输出乱码，第二次修改前备份">
+      <option name="closed" value="true" />
+      <created>1712491817568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712491817568</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,7 +185,8 @@
     <MESSAGE value="6.28错误版本备份" />
     <MESSAGE value="6.28完成" />
     <MESSAGE value="6.37输出乱码，修改前备份" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.37输出乱码，修改前备份" />
+    <MESSAGE value="6.37输出乱码，第二次修改前备份" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.37输出乱码，第二次修改前备份" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
